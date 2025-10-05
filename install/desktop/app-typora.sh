@@ -10,13 +10,13 @@
 # sudo apt install -y typora
 
 # Install with db
-cd /tmp
-wget -O typora.deb "https://downloads.typora.io/linux/typora_1.10.8_amd64.deb"
-sudo apt install -y /tmp/typora.deb
-rm typora.deb
-cd -
-
-# Add iA Typora theme
-mkdir -p ~/.config/Typora/themes
-cp ~/.local/share/omakub/configs/typora/ia_typora.css ~/.config/Typora/themes/
-cp ~/.local/share/omakub/configs/typora/ia_typora_night.css ~/.config/Typora/themes/
+#cd /tmp
+#wget -O typora.deb "https://downloads.typora.io/linux/typora_1.10.8_amd64.deb"
+#sudo apt install -y /tmp/typora.deb
+#rm typora.deb
+#cd -
+#
+## Add iA Typora theme
+#mkdir -p ~/.config/Typora/themes
+#cp ~/.local/share/omakub/configs/typora/ia_typora.css ~/.config/Typora/themes/
+#cp ~/.local/share/omakub/configs/typora/ia_typora_night.css ~/.config/Typora/themes/
