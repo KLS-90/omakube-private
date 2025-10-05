@@ -26,6 +26,10 @@ rm -rf ~/.local/share/omakub
 # wget -qO- https://raw.githubusercontent.com/KLS-90/omakube-private/privateDev/boot.sh
 
 git clone https://github.com/KLS-90/omakube-private.git ~/.local/share/omakub >/dev/null
+cd ~/.local/share/omakub
+git switch privateDev
+cd -
+
 #if [[ $OMAKUB_REF != "master" ]]; then
 #	cd ~/.local/share/omakub
 #	git fetch origin "${OMAKUB_REF:-stable}" && git checkout "${OMAKUB_REF:-stable}"
