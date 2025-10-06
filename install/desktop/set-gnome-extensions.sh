@@ -13,13 +13,13 @@ gnome-extensions disable ding@rastersoft.com
 #gum confirm "To install Gnome extensions, you need to accept some confirmations. Ready?"
 
 # Install new extensions
-gext install --yes tactile@lundal.io
-gext install --yes just-perfection-desktop@just-perfection
-gext install --yes blur-my-shell@aunetx
-gext install --yes space-bar@luchrioh
-gext install --yes undecorate@sun.wxg@gmail.com
-gext install --yes tophat@fflewddur.github.io
-gext install --yes AlphabeticalAppGrid@stuarthayhurst
+gext install tactile@lundal.io
+gext install just-perfection-desktop@just-perfection
+gext install blur-my-shell@aunetx
+gext install space-bar@luchrioh
+gext install undecorate@sun.wxg@gmail.com
+gext install tophat@fflewddur.github.io
+gext install AlphabeticalAppGrid@stuarthayhurst
 
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
