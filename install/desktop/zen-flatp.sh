@@ -1,1 +1,1 @@
-flatpak install flathub app.zen_broser.zen
+flatpak install flathub app.zen_browser.zen
