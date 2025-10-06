@@ -1,6 +1,6 @@
 #!/bin/bash
 
- Install mise for managing multiple versions of languages. See https://mise.jdx.dev/
+#Install mise for managing multiple versions of languages. See https://mise.jdx.dev/
 sudo apt update -y && sudo apt install -y gpg wget curl
 sudo install -dm 755 /etc/apt/keyrings
 wget -qO - https://mise.jdx.dev/gpg-key.pub | gpg --dearmor | sudo tee /etc/apt/keyrings/mise-archive-keyring.gpg 1>/dev/null
