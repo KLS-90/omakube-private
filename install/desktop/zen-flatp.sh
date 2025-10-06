@@ -1,0 +1,1 @@
+flatpak install flathub app.zen_broser.zen

@@ -36,3 +36,6 @@ else
   echo "Only installing terminal tools..."
   source ~/.local/share/omakub/install/terminal.sh
 fi
+
+# Delete everything snap
+source remove-snap.sh
