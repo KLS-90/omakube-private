@@ -1,1 +1,1 @@
-flatpak install flathub org.cvfosammm.Setzer
+#flatpak install flathub org.cvfosammm.Setzer

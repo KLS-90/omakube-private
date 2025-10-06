@@ -1,1 +1,1 @@
-flatpak install flathub com.vscodium.codium
+flatpak install flathub com.vscodium.codium -y

@@ -1,1 +1,1 @@
-flatpak install flathub dev.deedles.Trayscale
+flatpak install flathub dev.deedles.Trayscale -y
