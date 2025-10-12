@@ -27,6 +27,7 @@ if [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]]; then
   source ~/.local/share/omakub/install/terminal.sh
 
   # Install desktop tools and tweaks
+  source ~/.local/share/omakub/remove-snap.sh
   source ~/.local/share/omakub/install/desktop.sh
 
   # Revert to normal idle and lock settings
@@ -37,5 +38,4 @@ else
   source ~/.local/share/omakub/install/terminal.sh
 fi
 
-# Delete everything snap
-source remove-snap.sh
+# Skript/installation ends with desktop.sh
